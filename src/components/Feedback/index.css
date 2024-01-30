@@ -1,0 +1,87 @@
+/* Write your CSS code here. */
+.background-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  padding: 50px;
+  box-shadow: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width:767px){
+  .background-container{
+    padding: 20px;
+  }
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 80px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+@media screen and (max-width:767px){
+  .card-container{
+    padding: 30px;
+  }
+}
+
+.heading-emoji {
+  color: #0f172a;
+  font-size: 56px;
+}
+@media screen and (max-width:767px){
+  .heading-emoji{
+    font-size: 16px;
+  }
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.emoji-style {
+  height: 100px;
+  width: 100px;
+}
+@media screen and (max-width:767px){
+  .emoji-style{
+    height: 40px;
+  width: 40px;
+  }
+}
+.para-description {
+  font-size: 22px;
+}
+@media screen and (max-width:767px){
+  .para-description{
+    font-size: 14px;
+  }
+}
+.buttn {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.love-imoji {
+  height: 120px;
+  width: 120px;
+}
+@media screen and (max-width:767px){
+  .love-imoji{
+    height: 60px;
+  width: 60px;
+  }
+}
+.para-descriptionThankYou{
+  font-size: 32px;
+}
+@media screen and (max-width:767px){
+  .para-descriptionThankYou{
+    font-size: 16px;
+  }
+}
